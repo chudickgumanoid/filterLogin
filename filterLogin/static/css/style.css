@@ -1,0 +1,91 @@
+html, body {
+	font-family: 'Arial';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+a {
+	color: #2e0025;
+	text-decoration: none;
+}
+a:hover {
+	color: #010101;
+	text-decoration: underline;
+}
+.clear {clear: both;}
+
+ul.mainmenu {
+	list-style: none;
+	background: #2e0025;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 20px;
+	overflow: hidden;
+}
+ul.mainmenu li {
+	float: left;
+	font-weight: 700;
+	margin: 18px 40px 0 50px;
+}
+ul.mainmenu li.last {float: right;}
+
+ul.mainmenu li a {
+	color: #fff;
+	text-decoration: none;
+}
+ul.mainmenu li a:hover {
+	color: #f1f1f1;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+div.content {
+	margin: 10px;
+}
+
+
+/* стилизация обратной связи */
+.form-contact label {
+	display: inline-block;
+	min-width: 80px;
+}
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+	font-size: 16px;
+}
+.form-contact textarea {
+    min-width: 100px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    resize: horizontal;
+}
+.send{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius:5px;
+    color: #fff;
+    background-color: #2e0025;
+}
+.send:hover{
+    background-color: #400133;
+    transition: .5s all ease 0s;
+}
+
+
+
+.flash {padding: 10px;}
+.flash.success {
+	border: 1px solid #21DB56;
+	background: #AEFFC5;
+}
+.flash.error {
+	border: 1px solid #FF4343;
+	background: #FF9C9C;
+}
+
+

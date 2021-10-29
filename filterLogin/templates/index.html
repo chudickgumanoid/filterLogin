@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+<p>Тут можно произвести поиск</p>
+<input type="text" placeholder="Поиск..." name="search"><br>
+<input type="submit" class="send" value="Искать!" style="margin-top:10px;">
+<br>
+<a href="/register"> Регистрация</a>
+{% endblock %}
